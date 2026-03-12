@@ -2,8 +2,8 @@ const ExplorePage = () => {
 	return (
 		<div className="bg-neutral-600 h-screen w-full flex items-center justify-center">
 			<img
-				src="/imgs/bg.png"
-				className="w-full h-screen object-cover fixed z-0 opacity-30 blur-[1px]"
+				src="/imgs/bg-doodles.png"
+				className="w-full h-screen object-cover fixed top-0 left-0 z-0 opacity-50 blur-[1px]"
 				alt=""
 			/>
 			<div className="mx-auto z-5 relative flex flex-col">
