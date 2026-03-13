@@ -37,6 +37,7 @@ export default function Home() {
 
 			<img
 				src="/imgs/profile.png"
+				onClick={() => handleNav("/profile")}
 				className="w-[37.5vw] object-cover absolute hover:scale-[102%] bottom-0 right-0 drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
 				alt=""
 			/>

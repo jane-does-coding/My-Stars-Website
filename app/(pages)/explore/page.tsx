@@ -37,7 +37,7 @@ const ExplorePage = () => {
 			<img
 				src="/imgs/instagram.png"
 				onClick={() => handleNav("/blogs")}
-				className="w-[38vw] object-cover absolute hover:scale-105 top-[66vh] left-[55vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
+				className="w-[38vw] object-cover absolute hover:scale-105 top-[64vh] left-[53vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
 				alt=""
 			/>
 
@@ -51,7 +51,7 @@ const ExplorePage = () => {
 			<img
 				src="/imgs/slack.png"
 				onClick={() => handleNav("/explore")}
-				className="w-[25vw] object-cover absolute hover:scale-105 top-[20vh] left-[70vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
+				className="w-[25vw] object-cover absolute hover:scale-105 top-[18vh] left-[70vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
 				alt=""
 			/>
 
@@ -65,7 +65,7 @@ const ExplorePage = () => {
 			<img
 				src="/imgs/gmail.png"
 				onClick={() => handleNav("/explore")}
-				className="w-[36vw] object-cover absolute hover:scale-105 top-[40vh] left-[35vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
+				className="w-[36vw] object-cover absolute hover:scale-105 top-[37vh] left-[35vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
 				alt=""
 			/>
 			{/* <div className="mx-auto z-5 relative flex flex-col">
