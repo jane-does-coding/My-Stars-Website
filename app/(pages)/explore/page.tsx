@@ -1,12 +1,74 @@
+"use client";
+import { useRef } from "react";
+import { useRouter } from "next/navigation";
+
 const ExplorePage = () => {
+	const audioRef = useRef<HTMLAudioElement | null>(null);
+	const router = useRouter();
+
+	const playClick = () => {
+		if (audioRef.current) {
+			audioRef.current.currentTime = 0;
+			audioRef.current.play();
+		}
+	};
+
+	const handleNav = (url: string) => {
+		playClick();
+		setTimeout(() => {
+			router.push(url);
+		}, 120);
+	};
+
 	return (
 		<div className="bg-neutral-600 h-screen w-full flex items-center justify-center">
 			<img
 				src="/imgs/bg-doodles.png"
-				className="w-full h-screen object-cover fixed top-0 left-0 z-0 opacity-50 blur-[1px]"
+				className="w-full h-screen object-cover fixed top-0 left-0 z-0 opacity-40 blur-[2px]"
 				alt=""
 			/>
-			<div className="mx-auto z-5 relative flex flex-col">
+			<img
+				src="/imgs/youtube.png"
+				onClick={() => handleNav("/stuff-i-do")}
+				className="w-[37vw] object-cover absolute hover:scale-105 top-[5vh] left-[35vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
+				alt=""
+			/>
+
+			<img
+				src="/imgs/instagram.png"
+				onClick={() => handleNav("/blogs")}
+				className="w-[38vw] object-cover absolute hover:scale-105 top-[66vh] left-[55vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
+				alt=""
+			/>
+
+			<img
+				src="/imgs/github.png"
+				onClick={() => handleNav("/timeline")}
+				className="w-[30vw] object-cover absolute hover:scale-105 top-[22vh] left-[5vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
+				alt=""
+			/>
+
+			<img
+				src="/imgs/slack.png"
+				onClick={() => handleNav("/explore")}
+				className="w-[25vw] object-cover absolute hover:scale-105 top-[20vh] left-[70vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
+				alt=""
+			/>
+
+			<img
+				src="/imgs/resume.png"
+				onClick={() => handleNav("/timeline")}
+				className="w-[30vw] object-cover absolute hover:scale-105 top-[66vh] left-[16vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
+				alt=""
+			/>
+
+			<img
+				src="/imgs/gmail.png"
+				onClick={() => handleNav("/explore")}
+				className="w-[36vw] object-cover absolute hover:scale-105 top-[40vh] left-[35vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
+				alt=""
+			/>
+			{/* <div className="mx-auto z-5 relative flex flex-col">
 				<h1 className="text-[7.5vh] bg-[#FCFAF4] w-[65vw] border-dashed border-4 shadow-2xl shadow-black/40 text-center mx-auto">
 					Explore
 				</h1>
@@ -30,12 +92,12 @@ const ExplorePage = () => {
 						Resume
 					</h1>
 				</div>
-			</div>
-			<img
+			</div> */}
+			{/* <img
 				src="/imgs/profile.png"
 				className="w-[25vw] object-cover absolute bottom-0 right-0 drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
 				alt=""
-			/>
+			/> */}
 			<a href="/">
 				<img
 					src="/imgs/star.png"
