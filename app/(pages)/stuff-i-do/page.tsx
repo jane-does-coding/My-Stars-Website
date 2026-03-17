@@ -1,6 +1,6 @@
 const MyStuffPage = () => {
 	return (
-		<div className="bg-neutral-600 h-screen w-full flex items-center justify-center ">
+		<div className="bg-neutral-600 h-screen w-full flex flex-col items-center justify-center ">
 			<img
 				src="/imgs/bg-doodles.png"
 				className="w-full h-screen object-cover fixed top-0 left-0 z-0 opacity-50 blur-[1px]"
@@ -10,26 +10,18 @@ const MyStuffPage = () => {
 				<h1 className="text-[7.5vh] bg-[#FCFAF4] w-[65vw] border-dashed border-4 shadow-2xl shadow-black/40 text-center mx-auto">
 					Stuff I do
 				</h1>
-				<div className="mt-[2vh] grid grid-cols-2 gap-[1vw] w-[65vw] mx-auto">
-					<h1 className="text-[5vh] py-[0.5vh] bg-[#FCFAF4] w-full border-dashed border-4 shadow-2xl shadow-black/40 text-center mx-auto">
-						Github
-					</h1>
-					<h1 className="text-[5vh] py-[0.5vh] bg-[#FCFAF4] w-full border-dashed border-4 shadow-2xl shadow-black/40 text-center mx-auto">
-						Youtube
-					</h1>
-					<h1 className="text-[5vh] py-[0.5vh] bg-[#FCFAF4] w-full border-dashed border-4 shadow-2xl shadow-black/40 text-center mx-auto">
-						Instagram
-					</h1>
-					<h1 className="text-[5vh] py-[0.5vh] bg-[#FCFAF4] w-full border-dashed border-4 shadow-2xl shadow-black/40 text-center mx-auto">
-						Slack
-					</h1>
-					<h1 className="text-[5vh] py-[0.5vh] bg-[#FCFAF4] w-full border-dashed border-4 shadow-2xl shadow-black/40 text-center mx-auto">
-						Email
-					</h1>
-					<h1 className="text-[5vh] py-[0.5vh] bg-[#FCFAF4] w-full border-dashed border-4 shadow-2xl shadow-black/40 text-center mx-auto">
-						Resume
-					</h1>
-				</div>
+			</div>
+			<div className="mx-auto z-5 relative flex flex-col">
+				<h1 className="text-[7.5vh] bg-[#FCFAF4] w-[65vw] border-dashed border-4 shadow-2xl shadow-black/40 text-center mx-auto">
+					Proyo
+				</h1>
+			</div>
+			<div className="mx-auto z-5 relative columns-3">
+				{[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((img, i) => (
+					<div className="">
+						<img src={`/imgs/proyo${img}.png`} alt="" />
+					</div>
+				))}
 			</div>
 			<img
 				src="/imgs/profile.png"

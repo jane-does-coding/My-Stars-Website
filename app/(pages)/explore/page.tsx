@@ -29,42 +29,48 @@ const ExplorePage = () => {
 			/>
 			<img
 				src="/imgs/youtube.png"
-				onClick={() => handleNav("/stuff-i-do")}
+				onClick={() => handleNav("https://www.youtube.com/@knowledge-drop111")}
 				className="w-[37vw] object-cover absolute hover:scale-105 top-[5vh] left-[35vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
 				alt=""
 			/>
 
 			<img
 				src="/imgs/instagram.png"
-				onClick={() => handleNav("/blogs")}
+				onClick={() => handleNav("https://www.instagram.com/i_am_jane_2008/")}
 				className="w-[38vw] object-cover absolute hover:scale-105 top-[64vh] left-[53vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
 				alt=""
 			/>
 
 			<img
 				src="/imgs/github.png"
-				onClick={() => handleNav("/timeline")}
+				onClick={() => handleNav("https://github.com/jane-does-coding")}
 				className="w-[30vw] object-cover absolute hover:scale-105 top-[22vh] left-[5vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
 				alt=""
 			/>
 
 			<img
 				src="/imgs/slack.png"
-				onClick={() => handleNav("/explore")}
+				onClick={() =>
+					handleNav("https://hackclub.enterprise.slack.com/team/U07873N68ET")
+				}
 				className="w-[25vw] object-cover absolute hover:scale-105 top-[18vh] left-[70vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
 				alt=""
 			/>
 
 			<img
 				src="/imgs/resume.png"
-				onClick={() => handleNav("/timeline")}
+				onClick={() =>
+					handleNav(
+						"https://docs.google.com/document/d/1YG6hO2icW2iqnWbf-jyOyTfh6s4h3yPxNgd1Mx8rOes/edit?usp=sharing"
+					)
+				}
 				className="w-[30vw] object-cover absolute hover:scale-105 top-[66vh] left-[16vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
 				alt=""
 			/>
 
 			<img
 				src="/imgs/gmail.png"
-				onClick={() => handleNav("/explore")}
+				onClick={() => handleNav("mailto:yevheniiasimaka@gmail.com")}
 				className="w-[36vw] object-cover absolute hover:scale-105 top-[37vh] left-[35vw] drop-shadow-2xl drop-shadow-black/80 transition-all ease-in-out cursor-pointer z-10"
 				alt=""
 			/>
