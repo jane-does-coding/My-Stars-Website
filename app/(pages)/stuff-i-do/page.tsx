@@ -1,6 +1,6 @@
 const MyStuffPage = () => {
 	return (
-		<div className="bg-neutral-600 h-screen w-full flex flex-col items-center justify-center ">
+		<div className="bg-neutral-600 h-screen overflow-y-scroll w-full flex flex-col items-center justify-center gap-[2vh] pt-[2vh]">
 			<img
 				src="/imgs/bg-doodles.png"
 				className="w-full h-screen object-cover fixed top-0 left-0 z-0 opacity-50 blur-[1px]"
@@ -16,9 +16,13 @@ const MyStuffPage = () => {
 					Proyo
 				</h1>
 			</div>
-			<div className="mx-auto z-5 relative columns-3">
+			<div className="mx-auto z-5 relative grid grid-cols-3 gap-4 w-[65vw]">
+				{" "}
 				{[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((img, i) => (
-					<div className="">
+					<div
+						className="bg-[#FCFAF4] p-[1vh] border-dashed border-4 shadow-2xl"
+						key={i}
+					>
 						<img src={`/imgs/proyo${img}.png`} alt="" />
 					</div>
 				))}
