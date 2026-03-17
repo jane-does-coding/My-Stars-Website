@@ -13,6 +13,26 @@ const MyStuffPage = () => {
 			</div>
 			<div className="mx-auto z-5 relative flex flex-col">
 				<h1 className="text-[7.5vh] bg-[#FCFAF4] w-[65vw] border-dashed border-4 shadow-2xl shadow-black/40 text-center mx-auto">
+					Campfire Flagship
+				</h1>
+			</div>
+			<div className="mx-auto z-5 relative grid grid-cols-3 gap-4 w-[65vw]">
+				{" "}
+				{[1, 2, 3, 4, 5, 6, 7, 8, 9].map((img, i) => (
+					<div
+						className="bg-[#FCFAF4] p-[1vh] border-dashed border-4 shadow-2xl"
+						key={i}
+					>
+						<img
+							src={`/imgs/flagship${img}.png`}
+							className="w-full h-[27.5vh] object-cover"
+							alt=""
+						/>
+					</div>
+				))}
+			</div>
+			<div className="mx-auto z-5 relative flex flex-col">
+				<h1 className="text-[7.5vh] bg-[#FCFAF4] w-[65vw] border-dashed border-4 shadow-2xl shadow-black/40 text-center mx-auto">
 					Proyo
 				</h1>
 			</div>
