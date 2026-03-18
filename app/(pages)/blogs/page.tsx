@@ -9,7 +9,7 @@ export default function BlogsPage() {
 
 			<div className="w-[70vw] mx-auto bg-[#FCFAF4]/80 backdrop-blur-md h-screen fixed top-0 z-5 overflow-y-scroll left-[15vw] pt-[3vh] pb-[7.5vh]">
 				<h2 className="text-[12.5vh] leading-[12.5vh] text-center">
-					Lorem, ipsum.
+					Why this Website?
 				</h2>
 				<p className="text-[3.75vh] text-center">04/09/26</p>
 				<img
@@ -18,69 +18,48 @@ export default function BlogsPage() {
 					alt=""
 				/>
 				<p className="px-[3vw] text-[3.5vh] leading-[3.25vh] mt-[-3vh]">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-					similique porro beatae repudiandae voluptatem numquam nam laborum
-					repellat quis, at quidem fugiat, fugit, explicabo maiores impedit
-					omnis. Ad facere ducimus quo voluptates assumenda vero dolor iste,
-					accusamus eum perferendis at deleniti quibusdam officia, ipsa nihil a
-					placeat. Sequi, iusto cupiditate!
+					I'm making this website to test out Lapse, because I'm tired of so
+					much programming and I want to do something fun. I also want to share
+					my thoughts and ideas with the world. Plus, it's a great way to
+					practice my web development skills and learn new things. So yeah,
+					that's why I'm making this website.
 				</p>
 				<p className="px-[3vw] text-[3.5vh] leading-[3.25vh] mt-[3vh]">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam,
-					sit ut? Nihil ex quam qui nemo non. Molestias odit ab aperiam quaerat?
-					Ad blanditiis eaque repellat quisquam nobis ipsam, eveniet corrupti
-					quidem quibusdam consequuntur perspiciatis non cum aliquid eos placeat
-					explicabo facere architecto, perferendis possimus autem tempore
-					aliquam aperiam tempora maiores. Quaerat, quas? Ipsa voluptatibus
-					veniam accusantium consequatur culpa odio incidunt consequuntur ea
-					reprehenderit illum nemo repellendus iure minima velit neque error
-					inventore, dicta quasi! Quidem cupiditate omnis voluptas mollitia
-					fugit impedit similique tenetur, expedita illum debitis et sit autem
-					corporis est eum. Quibusdam obcaecati minima totam nam natus eveniet!
+					I really want to get more into drawing, I feel like I ahve the ability
+					to copy, but not to create new art. This website doesn't have too much
+					art, just distorted text, lines, stars and swirls, but it is a first
+					step to get there right? I want to be able to make cool digital art,
+					for like stickers, but I do more traditional art. I love drawing
+					architechture and I'm okay at it, like people who dont draw will be
+					amazed, but for artists it's decent, I find it easy, becausae all of
+					it is just lines, snd perspective.
 				</p>
 				<p className="px-[3vw] text-[3.5vh] leading-[3.25vh] mt-[3vh]">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-					suscipit id, vel veniam incidunt porro voluptatibus voluptate?
-					Dignissimos distinctio atque, assumenda laudantium ex labore,
-					laboriosam aliquam optio ratione odio in.
+					I feel like this style and design for the website could have so much
+					more potential than what it has, but I'm so burned out from
+					programming, and just wanted to throw something together quickly with
+					the art I have.
 				</p>
-				<p className="px-[3vw] text-[3.5vh] leading-[3.25vh] mt-[3vh]">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-					suscipit id, vel veniam incidunt porro voluptatibus voluptate?
-					Dignissimos distinctio atque, assumenda laudantium ex labore,
-					laboriosam aliquam optio ratione odio in. Lorem ipsum dolor sit amet
-					consectetur, adipisicing elit. Explicabo eum voluptatibus, placeat hic
-					odit rem! Voluptate ipsa iure sed pariatur deleniti mollitia nemo
-					nostrum possimus!
-				</p>
-				<p className="px-[3vw] text-[3.5vh] leading-[3.25vh] mt-[3vh]">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-					suscipit id, vel veniam incidunt porro voluptatibus voluptate?
-					Dignissimos distinctio atque, assumenda laudantium ex labore,
-					laboriosam aliquam optio ratione odio in.
-				</p>
-				<p className="px-[3vw] text-[3.5vh] leading-[3.25vh] mt-[3vh]">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-					suscipit id, vel veniam incidunt porro voluptatibus voluptate?
-					Dignissimos distinctio atque, assumenda laudantium ex labore,
-					laboriosam aliquam optio ratione odio in. Lorem ipsum dolor sit amet
-					consectetur, adipisicing elit. Explicabo eum voluptatibus, placeat hic
-					odit rem! Voluptate ipsa iure sed pariatur deleniti mollitia nemo
-					nostrum possimus!
-				</p>
+
 				<img
 					src="/imgs/line3.png"
 					className="w-full translate-y-[-1vh]"
 					alt=""
 				/>
 				<div className="flex items-center justify-between w-[50%] mx-auto mt-[4vh]">
-					<a href="/" className="text-[4vh]">
+					<a
+						href="https://github.com/jane-does-coding/My-Stars-Website"
+						className="text-[4vh]"
+					>
 						Github
 					</a>
-					<a href="/" className="text-[4vh]">
+					<a
+						href="https://www.instagram.com/i_am_jane_2008/"
+						className="text-[4vh]"
+					>
 						Instagram
 					</a>
-					<a href="/" className="text-[4vh]">
+					<a href="mailto:yevheniiasimaka@gmail.com" className="text-[4vh]">
 						Email
 					</a>
 				</div>
