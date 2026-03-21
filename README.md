@@ -2,6 +2,11 @@
 
 Demo: https://my-stars-website.vercel.app/
 
+
+<img width="1710" height="950" alt="Screenshot 2026-03-21 at 1 29 32 PM" src="https://github.com/user-attachments/assets/3757b0c0-76a9-49b0-aad6-693259e13ec5" />
+
+
+
 This website was meant to just make my art, mainly :3
 
 ## Languages & Technologies:
